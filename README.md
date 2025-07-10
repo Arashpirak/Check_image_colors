@@ -47,22 +47,37 @@ Color Detection Logic
 HSV Color Ranges
 Color	Hue Range	Saturation	Value
 Red	0-10 or 170-180	> 50	> 30
+
 Orange	10-25	> 50	> 30
+
 Yellow	25-35	> 50	> 30
+
 Green	35-80	> 50	> 30
+
 Teal	80-100	> 50	> 30
+
 Blue	100-130	> 50	> 30
+
 Purple	130-150	> 50	> 30
+
 Pink	150-170	> 50	> 30
+
 White	Any	< 50	> 200
+
 Gray	Any	< 50	30-200
+
 Black	Any	Any	< 30
+
 Example Output
 text
 Pixel at (320, 240):
+
 BGR values: [ 36 158 229]
+
 HSV values: [ 20 215 229]
+
 RGB values: [229 158  36]
+
 Color: Orange
 ------------------------------
 Customization
